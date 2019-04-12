@@ -1,8 +1,9 @@
-1) https://github.com/facebook/create-react-app
+- Basic Setup: Create React App
 ```
-    npx create-react-app my-app
-	cd my-app
-	npm start
+https://github.com/facebook/create-react-app
+npx create-react-app my-app
+cd my-app
+npm start
 ```
 
 - Create React Component
