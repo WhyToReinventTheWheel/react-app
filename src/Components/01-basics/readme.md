@@ -5,8 +5,10 @@
 	cd react-app
 	npm start
 ```
--  // {} when java script variable need to show
-`<p>Dynamic age={Math.floor(Math.random() * 30)}.</p>`
+-  {} when java script variable need to show
+```sh
+<p>Dynamic age={Math.floor(Math.random() * 30)}.</p>
+```
 
 
 
