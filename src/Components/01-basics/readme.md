@@ -8,7 +8,7 @@
 -  {} When java script variable need to show
 ` <p>Dynamic age={Math.floor(Math.random() * 30)}.</p> `
 
-- `Props`
+- Props
 ```sh
 const functionalComponent = (props) => {
     return (
@@ -19,6 +19,7 @@ const functionalComponent = (props) => {
     )
 }
 ```
+`<FunctionalComponent name='xyz' age='21' />`
 
 
 
