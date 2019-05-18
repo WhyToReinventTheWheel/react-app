@@ -8,6 +8,18 @@
 -  {} When java script variable need to show
 ` <p>Dynamic age={Math.floor(Math.random() * 30)}.</p> `
 
+- `Props`
+```sh
+const functionalComponent = (props) => {
+    return (
+        <div>
+            <p>FunctionalComponent Name={props.name}, Age={props.age}.</p>
+            <p>{props.children}</p>
+        </div>
+    )
+}
+```
+
 
 
 
