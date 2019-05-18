@@ -1,15 +1,19 @@
 import React from 'react'
-import FunctionalComponent from './functional-component'
-import ClassBasedComponent from './class-based-component'
 
-const Main = () => {
+import ClassBasedComponent from './01-class-based-component'
+import FunctionalComponent from './02-functional-component'
+import DynamicContent from './03-dynamic-content'
+
+
+const main = () => {
     return (
         <div>
-            <FunctionalComponent name='abc' age='20'>Child Props.</FunctionalComponent>
-            <FunctionalComponent name='xyz' age='21'/>
-            <ClassBasedComponent/>
+            <FunctionalComponent name='abc1' age='20'>Child Props.</FunctionalComponent>
+            <FunctionalComponent name='xyz' age='21' />
+            <ClassBasedComponent />
+            <DynamicContent />
         </div>
     )
 }
 
-export default Main
+export default main

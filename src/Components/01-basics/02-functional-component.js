@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FunctionalComponent = (props) => {
+const functionalComponent = (props) => {
     return (
         <div>
             <p>FunctionalComponent Name={props.name}, Age={props.age}.</p>
@@ -9,4 +9,4 @@ const FunctionalComponent = (props) => {
     )
 }
 
-export default FunctionalComponent
+export default functionalComponent
