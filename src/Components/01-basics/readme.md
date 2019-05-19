@@ -23,8 +23,9 @@ How to call
 `<FunctionalComponent name='xyz' age='21' />`
 
 - Props: Childern
-`<FunctionalComponent name='abc1' age='20'>Child Props.</FunctionalComponent>`
-```
+```sh
+<FunctionalComponent name='abc1' age='20'>Child Props.</FunctionalComponent>
+
 return (
 	<div>
 		<p>FunctionalComponent Name={props.name}, Age={props.age}.</p>
