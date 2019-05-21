@@ -49,7 +49,7 @@ testClickHandler = () => {
 
 ### State: using hooks
 ```sh
- const [name, setName] = useState('Test Test');
+const [name, setName] = useState('Test Test');
 const [age, setAge] = useState(20);
 const setNameHandler = () => {
 	setName('Test1 Test2')
