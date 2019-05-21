@@ -31,8 +31,30 @@ return (
 	</div>
 )
 ```
-### State:  
+### State: using setState
 - props pass from outside the component on the other hand state is with in the component.
 
+```sh
+this.state = {
+	message: 'Welcome1',
+}
+```
+```sh
+testClickHandler = () => {
+	this.setState({
+		message: 'Welcome2',
+	})
+}
+```
 
-
+### State: using hooks
+```sh
+ const [name, setName] = useState('Test Test');
+const [age, setAge] = useState(20);
+const setNameHandler = () => {
+	setName('Test1 Test2')
+}
+const setAgeHandler = () => {
+	setAge(21)
+}
+```
