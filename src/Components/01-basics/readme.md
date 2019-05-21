@@ -60,3 +60,9 @@ const setAgeHandler = () => {
 ```
 
 ### Style
+```sh
+import '../../App.css'
+<div className='Grey'>
+	<FunctionalComponent name='xyz' age='21' />
+</div>
+```
