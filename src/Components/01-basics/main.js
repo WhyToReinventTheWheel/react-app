@@ -6,18 +6,32 @@ import DynamicContent from './03-dynamic-content'
 import State from './04-state'
 import StateHookExample from './05-state-hook'
 
-const main = () => {
+import '../../App.css'
+
+const Main = () => {
     return (
         <div>
-            <FunctionalComponent name='abc1' age='20'>Child Props.</FunctionalComponent>
-            <FunctionalComponent name='xyz' age='21' />
-            <ClassBasedComponent />
-            <DynamicContent />
-            <State />
-            <br />
-            <StateHookExample />
+            <div className='Grey'>
+                <FunctionalComponent name='xyz' age='21' />
+            </div>
+            <div className='Green'>
+                <FunctionalComponent name='abc1' age='20'>
+                    Child Props.</FunctionalComponent>
+            </div>
+            <div className='Grey'>
+                <ClassBasedComponent />
+            </div>
+            <div className='Green'>
+                <DynamicContent />
+            </div>
+            <div className='Grey'>
+                <State />
+            </div>
+            <div className='Green'>
+                <StateHookExample />
+            </div>
         </div>
     )
 }
 
-export default main
+export default Main

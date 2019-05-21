@@ -58,3 +58,5 @@ const setAgeHandler = () => {
 	setAge(21)
 }
 ```
+
+### Style
