@@ -9,15 +9,13 @@ class StateExample extends Component {
             count: 0
         }
     }
-
     testClickHandler = () => {
         let message1
         if (this.state.flag) {
-            message1 = 'Message 1'
+            message1 = 'Message1'
         } else {
-            message1 = 'Message 2'
+            message1 = 'Message2'
         }
-
         this.setState({
             message: message1,
             count: this.state.count + 1,
@@ -25,12 +23,11 @@ class StateExample extends Component {
         })
         console.log(this.state.count)
     }
-
     render() {
         return (
             <div>
-                <h1>{this.state.message}</h1>
-                <h1>Count={this.state.count}</h1>
+                <h4>Message={this.state.message},
+                        Count={this.state.count}</h4>
                 <button onClick={this.testClickHandler}>StateChange</button>
             </div >
         )
